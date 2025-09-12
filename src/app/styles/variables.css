@@ -1,0 +1,10 @@
+/* variáveis em css */
+:root {
+    /* PSEUDO CLASSE ROOT
+    raiz do documento
+    onde podemos declarar vars globais
+    */
+    --primary-color: orange;
+    --back-blackground-color: black;
+    --white: white;
+}

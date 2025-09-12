@@ -1,0 +1,45 @@
+@charset "UTF-8"; /* conjunto de caracteres */
+@import './variables.css';
+
+/* fontes externas */
+@font-face {
+    font-family: "FuturaBookFont";
+    src: url("/public/fonts/FuturaBookFont.ttf") format("truetype");
+    /*font-weight: normal;*/
+    font-style: normal;
+}
+/* fontes do Google Fonts - podem estar em um unico import */
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--white);
+  background-color: var(--back-blackground-color);
+  font-family: "FuturaBookFont", Arial, Helvetica, sans-serif;
+
+  font-size: 1em;
+  font-weight: normal;
+  font-style: normal;
+  
+}
+
+/* BOX MODEL 
+
+* tanto html como css
+* aninhamento de 'caixas'
+
+height= altura
+width= largura
+border= borda
+padding= preenchimento/espaçamento entre borda e conteúdo
+margin= espaço EXTERNO entre uma caixa e outra
+outline= contorno, fora do elemento
+
+TIPOS DE CAIXAS
+* box-level= uma nova caixa do tipo box-level ocupa toda a largura da caixa externa
+* inline-level= permanece dentro da linha
+*/
